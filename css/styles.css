@@ -1,17 +1,18 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Opens Sans', sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Opens Sans", sans-serif;
 }
 
-html, body {
-    background-color: #000;
+html,
+body {
+  background-color: #000;
 }
 
 .nav-container {
   height: 80px;
-  background-color: #FF8400;
+  background-color: #ff8400;
   width: 100%;
   padding: 0 20px;
   display: flex;
@@ -28,16 +29,16 @@ html, body {
 }
 
 .nav-main h1 {
-  color:#FFF;
+  color: #fff;
   font-size: 36px;
 }
 
 .contact-link {
-  color:#FFF;
-  cursor:pointer;
+  color: #fff;
+  cursor: pointer;
 }
 
-.form-container{
+.form-container {
   width: 100%;
   padding: 40px 20px;
 }
@@ -52,16 +53,16 @@ html, body {
 }
 
 .form-control {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .form-control label {
-    display: none;
+  display: none;
 }
 
 .error-message {
   margin-top: 5px;
-  color: #FAA;
+  color: #faa;
 }
 
 .form-input {
@@ -74,7 +75,7 @@ html, body {
 }
 
 .form-input::placeholder {
-  color:#C9C9C9;
+  color: #c9c9c9;
 }
 
 .form-input:disabled {
@@ -89,15 +90,15 @@ html, body {
 .btn {
   width: 250px;
   height: 50px;
-  background-color: #FF8400;
+  background-color: #ff8400;
   border: 0;
   border-radius: 4px;
-  color: #FFF;
+  color: #fff;
   font-weight: bold;
   font-size: 14px;
 }
 
-.btn-left{
+.btn-left {
   margin-right: 10px;
 }
 
@@ -114,9 +115,9 @@ html, body {
   align-items: center;
 }
 
-.card-list-item{
+.card-list-item {
   background-color: #333;
-  color:#fff;
+  color: #fff;
   margin-bottom: 20px;
   width: 100%;
   max-width: 900px;
@@ -125,16 +126,16 @@ html, body {
 }
 
 .card-list-item h3 {
-  color:#FF8400;
+  color: #ff8400;
   font-size: 18px;
 }
 
 .address-line {
-  color:#FFF;
+  color: #fff;
   font-size: 14px;
 }
 
 .address-cep {
-  color:#8f8f8f;
+  color: #8f8f8f;
   font-size: 12px;
 }
