@@ -12,7 +12,6 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
-
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
@@ -35,7 +34,7 @@
                 type="text"
                 placeholder="CEP"
               />
-              <div class="error-message">Campo requerido</div>
+              <div class="error-message" data-error="cep">Campo requerido</div>
             </div>
             <div class="form-control">
               <label for="street">Logradouro:</label>
@@ -57,7 +56,7 @@
                 type="text"
                 placeholder="Número"
               />
-              <div class="error-message">Campo requerido</div>
+              <div class="error-message" data-error="number">Campo requerido</div>
             </div>
             <div class="form-control">
               <label for="city">Cidade:</label>
@@ -71,8 +70,8 @@
               />
             </div>
             <div class="btn-container">
-              <button class="btn btn-left" type="submit">Salvar</button>
-              <button class="btn btn-right">Limpar</button>
+              <button name="btnSave" class="btn btn-left" type="submit">Salvar</button>
+              <button name="btnClear" class="btn btn-right">Limpar</button>
             </div>
           </form>
         </div>
@@ -90,5 +89,6 @@
         </div>
       </section>
     </main>
+    <script type="module" src="js/dsviacep.js"></script>
   </body>
 </html>
